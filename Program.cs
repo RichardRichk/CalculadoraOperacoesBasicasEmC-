@@ -17,7 +17,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             |                                      |
             | Informe a operacao desejada:         |
             | '+' Para adicao;                     | 
-            |'-' Para subtracao;                   |
+            | '-' Para subtracao;                   |
             | '*' Para multiplicacao;              |
             | '/' Para divisao.                    |
             |                                      |
@@ -35,22 +35,22 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 case '+':
                 resultado = (numero + numero1);
-                Console.WriteLine($"O resultado e {resultado}");               
+                Console.WriteLine($"O resultado e {resultado.ToString("F2")}");               
                     break;
 
                 case '-':
                 resultado = (numero - numero1);
-                Console.WriteLine($"O resultado e {resultado}");
+                Console.WriteLine($"O resultado e {resultado.ToString("F2")}");
                     break;
 
                 case '*':
                 resultado = (numero * numero1);
-                Console.WriteLine($"O resultado e {resultado}");
+                Console.WriteLine($"O resultado e {resultado.ToString("F2")}");
                     break;
 
                 case '/':
                 resultado = (numero / numero1);
-                Console.WriteLine($"O resultado e {resultado}");
+                Console.WriteLine($"O resultado e {resultado.ToString("F2")}");
                     break;
                 
                 default:
